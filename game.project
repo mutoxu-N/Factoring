@@ -1,0 +1,34 @@
+[bootstrap]
+main_collection = /main/main.collectionc
+render = /builtins/render/default.renderc
+
+[script]
+shared_state = 1
+
+[display]
+width = 1280
+height = 720
+display_profiles = /builtins/render/default.display_profilesc
+dynamic_orientation = 1
+
+[android]
+input_method = HiddenInputField
+app_icon_36x36 = /main/images/icons/ico_36.png
+app_icon_48x48 = /main/images/icons/ico_48.png
+app_icon_72x72 = /main/images/icons/ico_72.png
+app_icon_96x96 = /main/images/icons/ico_96.png
+app_icon_144x144 = /main/images/icons/ico_144.png
+app_icon_192x192 = /main/images/icons/ico_192.png
+package = com.mutoxu_n.android.factoring
+manifest = /builtins/manifests/android/AndroidManifest.xml
+
+[project]
+title = Factoring
+dependencies#0 = https://github.com/subsoap/defos/archive/v2.6.0.zip
+
+[windows]
+app_icon = /main/icon.ico
+
+[liveupdate]
+settings = /liveupdate.settings
+

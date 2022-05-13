@@ -1,0 +1,15 @@
+images {
+  image: "/main/images/blue.png"
+}
+images {
+  image: "/main/images/orange.png"
+}
+images {
+  image: "/main/images/button.png"
+}
+images {
+  image: "/main/images/camera.png"
+}
+margin: 0
+extrude_borders: 2
+inner_padding: 0
